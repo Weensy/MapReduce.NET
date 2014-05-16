@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.Console", "Clients\MapReduce.Console\MapReduce.Console.csproj", "{2DD016D6-AB27-4D52-AC83-82482DACE6F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.Core", "Core\MapReduce.Core\MapReduce.Core.csproj", "{76775A25-48F4-4312-8603-2089E08B6AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.Analysis", "MapReduce.Implementation\MapReduce.Analysis.csproj", "{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.Infrastructure.Storage", "Infrastructure\MapReduce.Storage\MapReduce.Infrastructure.Storage.csproj", "{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F983546D-75DE-4867-9B2A-724AA6CCEC68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{76DE3829-0EDD-4B49-9BF1-0E8C58BBC6E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{116D3C9D-5A10-44AE-8C15-5E94B1CFA0FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{CAFAA023-A784-4427-B2F5-01C1B3349C40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Solution Items", "__Solution Items", "{F8D20629-A335-4258-85A0-7FB0FE8DC1CE}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MapReduce Instinct.vsmdi = MapReduce Instinct.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Debug|x86.ActiveCfg = Debug|x86
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Debug|x86.Build.0 = Debug|x86
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Release|x86.ActiveCfg = Release|x86
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8}.Release|x86.Build.0 = Release|x86
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{76775A25-48F4-4312-8603-2089E08B6AD9}.Release|x86.ActiveCfg = Release|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DD016D6-AB27-4D52-AC83-82482DACE6F8} = {116D3C9D-5A10-44AE-8C15-5E94B1CFA0FD}
+		{76775A25-48F4-4312-8603-2089E08B6AD9} = {F983546D-75DE-4867-9B2A-724AA6CCEC68}
+		{730C4CF4-5C5E-4E49-91B3-6C73DA2281FA} = {CAFAA023-A784-4427-B2F5-01C1B3349C40}
+		{DAC94C5E-A1B4-4C97-A8A7-A5C3CD8736DC} = {76DE3829-0EDD-4B49-9BF1-0E8C58BBC6E8}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MapReduce Instinct.vsmdi
+	EndGlobalSection
+EndGlobal
